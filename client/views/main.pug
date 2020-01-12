@@ -1,0 +1,15 @@
+doctype html
+head
+  title Совместные покупки
+
+  style
+    include ../dist/app.css
+
+#App.cobu-main-app-container
+  div.loading-resources-panel
+    p.loading-resources-text
+      | Loading, please wait
+    div.linear-progress-bar
+
+script(src=`/dist/app.js?timestamp=${timestamp}`)
+link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&display=swap')

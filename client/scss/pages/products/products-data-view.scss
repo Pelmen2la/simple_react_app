@@ -1,0 +1,64 @@
+.products-data-view {
+    color: $main-black-color;
+
+    .products-data-view-card {
+        width: 23%;
+        margin: 20px 1%;
+        float: left;
+
+        .products-data-view-card-content-wrapper {
+            display: flex;
+            flex-direction: column;
+            padding: 14px 8px;
+
+            .products-data-view-card_image {
+                height: 160px;
+                margin: 0 auto 20px;
+            }
+
+            .products-data-view-card_rating {
+                color: #8aa3bb;
+                margin-bottom: 8px;
+                font-size: $tiny-font-size;
+
+                .products-data-view-card_rating-icon {
+                    margin-right: 6px;
+                }
+            }
+
+            .products-data-view-card_name {
+                text-transform: capitalize;
+                font-size: $small-font-size;
+                line-height: 1.43em;
+                height: 2.86em;
+                margin-bottom: 12px;
+            }
+
+            .products-data-view-card_price {
+                font-weight: $semi-bold-font-weight;
+                letter-spacing: -0.2px;
+                line-height: 1.5em;
+                margin-bottom: 8px;
+            }
+
+            .products-data-view-card_prepayment {
+                font-size: $tiny-font-size;
+                letter-spacing: -0.1px;
+
+                .products-data-view-card_prepayment-value {
+                    display: inline-block;
+                    padding: 4px;
+                    border: solid 1px rgba(35, 35, 53, 0.4);
+                    margin-left: 4px;
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+                border: 1px solid $light-gray-color;
+                padding: 13px 7px;
+                box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.75);
+            }
+        }
+    }
+}

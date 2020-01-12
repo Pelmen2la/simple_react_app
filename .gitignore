@@ -1,0 +1,7 @@
+node_modules/*
+.idea/*
+client/dist/*
+package-lock.json
+server/config/app-config.json
+upload/*
+!upload/init-folder.txt

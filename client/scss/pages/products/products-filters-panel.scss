@@ -1,0 +1,27 @@
+.products-page-filters-panel {
+    overflow: auto;
+    text-align: center;
+
+    .products-page-filters-panel-card {
+        width: 160px;
+        height: 152px;
+        text-align: center;
+        padding: 24px;
+        display: inline-block;
+        cursor: pointer;
+        border: 1px solid $light-gray-color;
+        border-radius: 4px;
+        margin: 0 40px;
+
+        &.active {
+            color: $main-color;
+            border-color: $main-color;
+        }
+
+        .products-page-filters-panel-card_image {
+            display: block;
+            margin: 0 auto 16px;
+            height: 48px;
+        }
+    }
+}
